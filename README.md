@@ -30,4 +30,4 @@ Limit: 180000 ARS                1 USD = 1415 ARS
 3. Count the number of those prices.
 
 
-Conclution: When we convert the prices of the products list to Ars, we can se 2 products above threshold from prices in argentina.
+Conclution: When we convert the prices of the products list to Ars, we can see 2 products above threshold from prices in argentina.
