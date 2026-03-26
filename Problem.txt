@@ -1,0 +1,35 @@
+🧩 1. Currency Conversion
+A company works with prices in USD but needs to analyze them in Argentine pesos.
+* You have a list of prices in USD
+* Convert them to ARS (you choose the exchange rate)
+* Show which ones are above a certain amount
+* Count how many meet that condition
+
+# pseudocode
+Start 
+  
+  limit_Arg = 200.000
+  products = [
+    ("Nike Running Shoes", 85),
+    ("Apple AirPods (2nd Gen)", 129),
+    ("Logitech Wireless Mouse", 25),
+    ("Samsung 24 Monitor", 160),
+    ("Mechanical Keyboard", 75),
+    ("Backpack Travel", 45),
+    ("Bluetooth Speaker", 60),
+    ("External Hard Drive 1TB", 70)
+  ]
+
+  price_in_ars = []
+  for i in products
+    aux = products[i] * 1420
+    price_in_ars.append(aux)
+
+  above = [[product for product in products if product[1] > limit_Arg]]
+
+  for i in above
+    show("the Higers prices are: , above[i])
+
+Finish
+
+
